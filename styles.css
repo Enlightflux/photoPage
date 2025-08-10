@@ -1,0 +1,66 @@
+:root {
+	--purple: #9f4298;
+	--tealgreen: #cfdb31;
+	--lightpurple: #d1afd3;
+	--lightgray: #e6e7e8;
+	/* --blue: #106ebe;
+	--mint: #0ffcbe; */
+}
+
+* {
+	box-sizing: border-box;
+	font-family: poppins;
+	/* outline: 0.2px solid #0ffcbe; */
+}
+body {
+	margin: 20px 200px;
+	/* background-color: var(--blue); */
+}
+.hero {
+	padding: 100px 0px;
+}
+h3,
+p {
+	color: var(--lightpurple);
+	font-weight: 400;
+}
+
+h1 {
+	color: var(--purple);
+}
+.search-placeholder {
+	width: 400px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid var(--lightgray);
+}
+button {
+	height: 40px;
+	width: 120px;
+	border-radius: 4px;
+	border: none;
+}
+
+.photogallerySection {
+	padding-top: 30px;
+}
+
+.photogalleryCaption {
+	color: var(--lightpurple);
+	padding-bottom: 10px;
+}
+
+.photogallery {
+	display: flex;
+	gap: 5px;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.photogallery img {
+	overflow: hidden;
+	width: 300px;
+	/* height: 200px; */
+	background-color: var(--mint);
+	border-radius: 4px;
+}
